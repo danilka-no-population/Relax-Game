@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgb(147, 146, 146);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 40%;
+    box-shadow: 0 0 1px 1px #fe59c2, 0 0 5px 3px #fe59c2, 0 0 10px 6px #fe59c2, 0 0 90px 15px #fe59c2;
+}
+
+.square{
+    margin: 2px;
+    width: 16px;
+    height: 16px;
+    background: #1d1d1d;
+    box-shadow: 0 0 2px #000;
+    transition: 2s ease;
+}
+.square:hover{
+    transition-duration: 0s;
+}
